@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaInstagram, FaLinkedinIn, FaEnvelope } from 'react-icons/fa';
-import ProfileImage from '../assets/hero-img.jpg';
+import ProfileImage from '../assets/Shubham-gupta.jpeg';
 
 import { Link } from "react-router-dom";
 
@@ -12,11 +12,11 @@ const About = () => {
         <div className="flex-1 space-y-6">
           <h2 className="text-4xl md:text-5xl font-bold text-zinc-900">About me</h2>
           <p className="text-zinc-900 leading-relaxed text-justify bg-[#FDFDFDAA]">
-            I am a passionate and detail-oriented engineer pursuing a B.Tech in Artificial Intelligence and Machine Learning. With a strong foundation in deep learning, data analytics, and full-stack development, I build solutions that bridge real-world problems with intelligent systems. My work spans across OCR-based document retrieval, disease prediction models, object detection, and smart assistant interfaces.
-            <br />
-            I enjoy transforming complex data into actionable insights and intuitive applications using tools like TensorFlow, PyTorch, React.js, and Streamlit. During internships and academic projects, I’ve consistently delivered scalable, user-focused solutions in AI, computer vision, and NLP.
-            <br />
-            As a continuous learner and open-source contributor, I’m driven to explore emerging technologies and collaborate on impactful innovations in AI and software engineering.
+            I am a Software Engineer at Zensar Technologies, driven by a passion for building robust and scalable software. Having graduated with a B.Tech in Artificial Intelligence and Machine Learning, I bring a unique perspective to software engineering - combining strong system design with data-driven intelligence.
+            <br /><br />
+            Currently, my core focus lies in Java backend development and full-stack engineering, utilizing tools like Spring Boot, React.js, and PostgreSQL to architect seamless web applications. Concurrently, my background in AI empowers me to integrate machine learning models, computer vision, and NLP seamlessly into production-ready environments.
+            <br /><br />
+            Whether I am designing backend microservices, developing cross-platform applications, or training deep learning models, I am a continuous learner dedicated to crafting high-quality, impactful software solutions.
           </p>
           <motion.div
             className="inline-block"
@@ -59,7 +59,7 @@ const About = () => {
             <FaEnvelope className="w-6 h-6 text-zinc-800 hover:text-black" />
           </a>
         </div>
-        <p className="text-sm text-zinc-500">Shubham Gupta 2025</p>
+        <p className="text-sm text-zinc-500">Shubham Gupta 2026</p>
       </div>
     </section>
   );

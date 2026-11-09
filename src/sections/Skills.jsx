@@ -1,34 +1,41 @@
 import React from 'react';
-import { color, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import {
-  FaPython, FaJava, FaJs, FaReact, FaGitAlt, FaDocker, FaFigma
+  FaPython, FaJava, FaJs, FaReact, FaGitAlt, FaDocker, FaFigma, FaAws
 } from 'react-icons/fa';
 import {
   SiC, SiTensorflow, SiPytorch, SiKeras, SiScikitlearn, SiOpencv,
-  SiMongodb, SiMysql, SiPostgresql, SiFirebase, SiStreamlit, SiGooglecloud, SiVercel
+  SiMongodb, SiMysql, SiPostgresql, SiFirebase, SiStreamlit, SiGooglecloud, 
+  SiVercel, SiSpringboot, SiKotlin, SiFastapi, SiTypescript, SiApachemaven
 } from 'react-icons/si';
 
 const skills = [
-  { name: 'Python', icon: FaPython, color: '#3776AB' },
   { name: 'Java', icon: FaJava, color: '#f89820' },
-  { name: 'C', icon: SiC, color: '#3D74B6' },
+  { name: 'Spring Boot', icon: SiSpringboot, color: '#6DB33F' },
+  { name: 'Maven', icon: SiApachemaven, color: '#C71A22' },
+  { name: 'Python', icon: FaPython, color: '#3776AB' },
+  { name: 'FastAPI', icon: SiFastapi, color: '#009688' },
   { name: 'JavaScript', icon: FaJs, color: '#f7df1e' },
+  { name: 'TypeScript', icon: SiTypescript, color: '#3178C6' },
   { name: 'React.js', icon: FaReact, color: '#61dafb' },
-  { name: 'TensorFlow', icon: SiTensorflow, color: '#FF6F00' },
+  { name: 'Kotlin', icon: SiKotlin, color: '#7F52FF' },
+  { name: 'PostgreSQL', icon: SiPostgresql, color: '#336791' },
+  { name: 'MySQL', icon: SiMysql, color: '#4479A1' },
+  { name: 'MongoDB', icon: SiMongodb, color: '#4DB33D' },
+  { name: 'AWS', icon: FaAws, color: '#FF9900' },
+  { name: 'Google Cloud', icon: SiGooglecloud, color: '#4285F4' },
   { name: 'PyTorch', icon: SiPytorch, color: '#EE4C2C' },
+  { name: 'TensorFlow', icon: SiTensorflow, color: '#FF6F00' },
   { name: 'Keras', icon: SiKeras, color: '#D00000' },
   { name: 'Scikit-Learn', icon: SiScikitlearn, color: '#F7931E' },
   { name: 'OpenCV', icon: SiOpencv, color: '#5C3EE8' },
   { name: 'Streamlit', icon: SiStreamlit, color: '#FF4B4B' },
-  { name: 'MongoDB', icon: SiMongodb, color: '#4DB33D' },
-  { name: 'MySQL', icon: SiMysql, color: '#4479A1' },
-  { name: 'PostgreSQL', icon: SiPostgresql, color: '#336791' },
   { name: 'Firebase', icon: SiFirebase, color: '#FFCA28' },
-  { name: 'Google Cloud', icon: SiGooglecloud, color: '#4285F4' },
-  { name: 'Vercel', icon: SiVercel, color: '#000000' },
   { name: 'Docker', icon: FaDocker, color: '#2496ED' },
   { name: 'Git', icon: FaGitAlt, color: '#F05032' },
-  { name: 'Figma', icon: FaFigma, color: '#2D2D2D'}
+  { name: 'Vercel', icon: SiVercel, color: '#000000' },
+  { name: 'C', icon: SiC, color: '#3D74B6' },
+  { name: 'Figma', icon: FaFigma, color: '#2D2D2D' }
 ];
 
 const Skills = () => {

@@ -60,7 +60,7 @@ const Footer = () => {
             <ul className="space-y-2 text-white/80">
               <li><Link to="/about">About</Link></li>
               <li><a href="/contact">Contact Me</a></li>
-              <li><a href="https://github.com/its-shubham15m">GitHub</a></li>
+              <li><a href="https://github.com/guptashubham-dev">GitHub</a></li>
             </ul>
           </div>
           <div>

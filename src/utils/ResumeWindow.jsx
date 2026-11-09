@@ -32,20 +32,23 @@ const ResumeWindow = ({ onClose }) => {
 
           <div className="flex flex-col gap-3">
             <a
-              href="https://drive.google.com/file/d/1ab60K8PrsNM3PCQRXHDZ2hmp-IPRzRF_/view?usp=sharing"
+              href="https://drive.google.com/file/d/1PVenrNAm9h4ouTYO7g8OT-BVqNxvHtl1/view?usp=sharingg"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-main-blue text-white px-4 py-2 text-sm md:text-base rounded-full transition cursor-pointer hover:bg-main-blue/80"
             >
               View Resume
             </a>
+            
+            {/* Updated Download Link */}
             <a
-              href="/Shubham Gupta_AIML_2025.pdf"
-              download
+              href="/Shubham_Gupta_Resume_2026.pdf"
+              download="Shubham_Gupta_Resume_2026.pdf"
               className="border text-main-blue px-4 py-2 text-sm md:text-base rounded-full hover:bg-[#FCD12A] hover:text-black transition cursor-pointer"
             >
               Download Resume
             </a>
+            
             <button
               onClick={onClose}
               className="text-xs md:text-base hover:bg-red-500 hover:text-white transition px-4 py-2 rounded-full mt-2 cursor-pointer"

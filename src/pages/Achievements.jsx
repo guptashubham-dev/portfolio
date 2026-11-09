@@ -11,12 +11,14 @@ import BPSelfie from '../assets/achievements/businessplan2025_self.jpg';
 
 const achievements = [
   {
-    title: 'ICIA 2024 – Conference Publication',
-    description: 'Presented a research paper on deep learning-based object detection.',
-    detailedDescription: 'Submitted and presented the paper “Deep Learning Method in Object Detection: R-CNN to Mask R-CNN” at the Second International Conference on IoT and its Application (ICIA 2024), highlighting advancements in deep learning models like ground-boundary masking and their impact on real-time object detection.',
+    title: 'ICIA 2024 – Springer Nature Publication',
+    description: 'Published research paper "Deep Learning Method in Object Detection: R-CNN to Mask R-CNN" in Springer Nature.',
+    detailedDescription: 'Officially published in Springer Nature as part of the International Conference on Internet of Things and Its Applications (ICIA 2024) proceedings. The research explores the evolution and advancements in computer vision models from R-CNN to Mask R-CNN, including techniques like ground-boundary masking for real-time object detection.',
     date: '22 June 2024',
     images: [IciaCert],
-    links: []
+    links: [
+      { label: 'Springer Publication', url: 'https://link.springer.com/chapter/10.1007/978-981-95-7350-9_23' }
+    ]
   },
   {
     title: 'Pragati 2024 – Innovative Idea Contest',

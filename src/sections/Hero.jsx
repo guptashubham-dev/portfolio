@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import heroImage from "../assets/hero-img.jpg";
+import heroImage from "../assets/Shubham-Gupta.jpeg";
 import Lottie from "lottie-react";
 import heroAnimation from "../assets/BG_sparkles.json";
 import { Link } from "react-router-dom";
@@ -84,8 +84,6 @@ const Hero = () => {
     },
   };
 
-  
-
   return (
     <main className="relative flex flex-col md:flex-row justify-between items-center px-6 md:px-16 pt-10 pb-20 md:pt-12 font-navbar max-w-7xl mx-auto overflow-hidden md:min-h-[100vh]">
 
@@ -102,12 +100,11 @@ const Hero = () => {
         </h1>
 
         <p className="text-sm text-black max-w-xl mx-auto md:mx-0 text-justify">
-          I specialize in crafting <span class="font-semibold">AI-powered</span> applications integrating
-          <span class="font-semibold"> Computer Vision</span>, <span class="font-semibold"> Natural Language Processing (NLP)</span>, 
-          <span class="font-semibold"> Object Detection</span>, and <span class="font-semibold">Deep Learning</span>. 
-          From OCR-based search engines to real-time segmentation and multimodal chatbots, I blend 
-          <span class="font-semibold"> AIML</span> and <span class="font-semibold">full-stack development </span> 
-          to create solutions that drive innovation and real-world impact.
+          I am a <span className="font-semibold">Software Engineer</span> at <span className="font-semibold">Zensar Technologies</span> specializing in 
+          <span className="font-semibold"> Java Backend</span> and <span className="font-semibold">Full-Stack Development</span>. 
+          With a B.Tech foundation in <span className="font-semibold">AI/ML</span>, I build scalable, AI-infused applications. 
+          From robust <span className="font-semibold">Spring Boot</span> architectures and <span className="font-semibold">React</span> interfaces 
+          to integrating deep learning models, I blend software engineering principles with intelligent systems to create solutions that drive real-world impact.
         </p>
 
         <div className="flex justify-center md:justify-start gap-4 flex-wrap">
