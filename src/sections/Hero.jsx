@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import heroImage from "../assets/Shubham-Gupta.jpeg";
+import heroImage from "../assets/shubham-gupta.jpeg";
 import Lottie from "lottie-react";
 import heroAnimation from "../assets/BG_sparkles.json";
 import { Link } from "react-router-dom";

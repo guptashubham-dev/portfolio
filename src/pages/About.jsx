@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaInstagram, FaLinkedinIn, FaEnvelope } from 'react-icons/fa';
-import ProfileImage from '../assets/Shubham-Gupta.jpeg';
+import ProfileImage from '../assets/shubham-gupta.jpeg';
 
 import { Link } from "react-router-dom";
 
